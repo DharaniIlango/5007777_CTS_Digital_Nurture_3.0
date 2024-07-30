@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.digital.nurture.PaymentContextTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-07-30T17:19:12" hostname="REDVELVET" time="0.031">
+  <properties/>
+  <testcase name="testGPayPayment()" classname="org.digital.nurture.PaymentContextTest" time="0.026"/>
+  <testcase name="testCreditCardPayment()" classname="org.digital.nurture.PaymentContextTest" time="0.002"/>
+  <system-out><![CDATA[Paid 200 using GPay. Email: user@example.com
+Paid 100 using Credit Card. Card Number: 1234-5678-9012-3456
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
