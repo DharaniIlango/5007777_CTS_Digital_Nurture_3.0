@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.digital.nurture.view.StudentViewTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-07-30T18:00:55" hostname="REDVELVET" time="0.006">
+  <properties/>
+  <testcase name="testDisplayStudentDetails()" classname="org.digital.nurture.view.StudentViewTest" time="0.006"/>
+  <system-out><![CDATA[Student Details:
+Name: John Doe
+ID: 12345
+Grade: A
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
