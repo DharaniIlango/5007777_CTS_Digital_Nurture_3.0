@@ -13,14 +13,14 @@ BuilderPatternExample/
 ├── src/
 │ ├── main/
 │ │ ├── java/
-│ │ │ └── com/
-│ │ │ └── example/
+│ │ │ └── digital/
+│ │ │ └── nurture/
 │ │ │ ├── Computer.java
 │ │ │ └── Main.java
 │ └── test/
 │ ├── java/
-│ │ └── com/
-│ │ └── example/
+│ │ └── digital/
+│ │ └── nurture/
 │ │ └── ComputerTest.java
 │
 └── README.md
