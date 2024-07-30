@@ -34,7 +34,7 @@ java {
 
 application {
     // Define the main class for the application.
-    mainClass = 'org.digital.nurture.App'
+    mainClass = 'org.digital.nurture.MainTest'
 }
 
 tasks.named('test') {
