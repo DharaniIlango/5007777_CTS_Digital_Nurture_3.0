@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.digital.nurture.adapter.PaymentProcessorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-07-30T15:28:55" hostname="REDVELVET" time="0.023">
+  <properties/>
+  <testcase name="testPaymentProcessing()" classname="org.digital.nurture.adapter.PaymentProcessorTest" time="0.023"/>
+  <system-out><![CDATA[Processing payment through GPay: Rs. 100.0
+Processing payment through PayTM: Rs. 200.0
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
