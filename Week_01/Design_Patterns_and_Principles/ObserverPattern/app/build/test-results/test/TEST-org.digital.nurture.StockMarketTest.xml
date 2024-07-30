@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.digital.nurture.StockMarketTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-07-30T16:47:17" hostname="REDVELVET" time="0.023">
+  <properties/>
+  <testcase name="testObserverPattern()" classname="org.digital.nurture.StockMarketTest" time="0.023"/>
+  <system-out><![CDATA[MobileApp: Stock price updated to 100.0
+WebApp: Stock price updated to 100.0
+MobileApp: Stock price updated to 105.5
+WebApp: Stock price updated to 105.5
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
