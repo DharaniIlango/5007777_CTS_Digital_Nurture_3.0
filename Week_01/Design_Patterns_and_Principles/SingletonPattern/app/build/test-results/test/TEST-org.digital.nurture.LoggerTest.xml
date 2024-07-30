@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.digital.nurture.LoggerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-07-30T12:35:50" hostname="REDVELVET" time="0.034">
+  <properties/>
+  <testcase name="testSingleton()" classname="org.digital.nurture.LoggerTest" time="0.034"/>
+  <system-out><![CDATA[Log message: Singleton pattern works!
+Log message: Only one instance is used!
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
