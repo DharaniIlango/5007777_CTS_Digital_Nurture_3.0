@@ -1,26 +1,27 @@
 package com.library;
 
 import org.springframework.context.ApplicationContext;
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import com.library.service.BookService;
 
 public class Main {
   public static void main(String[] args) {
     // Load Spring context from XML configuration file
-    ApplicationContext context = new AnnotationConfigApplicationContext("com.library");
+    ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
 
     // Retrieve BookService bean and test it
     BookService bookService = context.getBean(BookService.class);
 
-    // Test the bean
-    System.out.println("BookService bean loaded: " + bookService);
+    // Call a method on the BookService to trigger AOP advice
+    bookService.someServiceMethod(); // Replace with an actual method call
   }
 }
-
 
 //Output:
 /*
 --- exec:3.1.0:exec (default-cli) @ librarymanagement ---
-BookService bean loaded: com.library.service.BookService@64cd705f
- */
+[main] INFO com.library.aspect.LoggingAspect - Before executing method: void com.library.service.BookService.someServiceMethod()
+Service method executed
+[main] INFO com.library.aspect.LoggingAspect - After executing method: void com.library.service.BookService.someServiceMethod()
+*/

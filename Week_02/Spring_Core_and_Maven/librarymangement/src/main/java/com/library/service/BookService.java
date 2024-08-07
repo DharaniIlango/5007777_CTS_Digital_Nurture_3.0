@@ -21,4 +21,9 @@ public class BookService {
     this.bookRepository = bookRepository;
   }
 
+  public void someServiceMethod() {
+    // Example logic that uses bookRepository
+    System.out.println("Service method executed");
+  }
+
 }
