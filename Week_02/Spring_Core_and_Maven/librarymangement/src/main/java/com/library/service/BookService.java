@@ -9,9 +9,16 @@ import com.library.repository.BookRepository;
 public class BookService {
   private BookRepository bookRepository;
 
+  // Constructor injection
+  @Autowired
+  public BookService(BookRepository bookRepository) {
+    this.bookRepository = bookRepository;
+  }
+
+  // Setter injection
   @Autowired
   public void setBookRepository(BookRepository bookRepository) {
     this.bookRepository = bookRepository;
   }
-  
+
 }

@@ -13,13 +13,14 @@ public class Main {
     // Retrieve BookService bean and test it
     BookService bookService = context.getBean(BookService.class);
 
-    // Test the bean (for example, you might want to call some method here)
+    // Test the bean
     System.out.println("BookService bean loaded: " + bookService);
   }
 }
 
+
 //Output:
 /*
 --- exec:3.1.0:exec (default-cli) @ librarymanagement ---
-BookService bean loaded: com.library.service.BookService@4a22f9e2
+BookService bean loaded: com.library.service.BookService@64cd705f
  */
