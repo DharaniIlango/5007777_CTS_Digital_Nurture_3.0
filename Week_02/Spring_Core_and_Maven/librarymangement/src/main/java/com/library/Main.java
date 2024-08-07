@@ -6,20 +6,20 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import com.library.service.BookService;
 
 public class Main {
-    public static void main(String[] args) {
-        ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
-        BookService bookService = (BookService) context.getBean("bookService");
+  public static void main(String[] args) {
+    // Load Spring context from XML configuration file
+    ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
 
-        // Test the configuration and logging
-        System.out.println("BookService bean: " + bookService);
-        bookService.performService(); // Invoke a method to see logging
-    }
+    // Retrieve BookService bean and test it
+    BookService bookService = (BookService) context.getBean("bookService");
+    
+    // Test the bean
+    System.out.println("BookService bean loaded: " + bookService);
+  }
 }
 
 //Output:
 /*
---- exec:3.1.0:exec (default-cli) @ librarymanagement ---
-BookService bean: com.library.service.BookService@5d99c6b5
-Service is performing using: com.library.repository.BookRepository@1187c9e8
-[main] INFO com.library.aspect.LoggingAspect - void com.library.service.BookService.performService() executed in 17ms
-*/
+    --- exec:3.1.0:exec (default-cli) @ librarymanagement ---
+BookService bean loaded: com.library.service.BookService@10e41621
+ */
