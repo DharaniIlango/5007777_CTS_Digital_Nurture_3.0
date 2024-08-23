@@ -1,2 +1,12 @@
 *.zip filter=lfs diff=lfs merge=lfs -text
 Exercise_02.zip filter=lfs diff=lfs merge=lfs -text
+Exercise_03.zip filter=lfs diff=lfs merge=lfs -text
+Exercise_04.zip filter=lfs diff=lfs merge=lfs -text
+Exercise_05.zip filter=lfs diff=lfs merge=lfs -text
+Exercise_06.zip filter=lfs diff=lfs merge=lfs -text
+Exercise_07.zip filter=lfs diff=lfs merge=lfs -text
+Exercise_08.zip filter=lfs diff=lfs merge=lfs -text
+Exercise_09.zip filter=lfs diff=lfs merge=lfs -text
+Exercise_10.zip filter=lfs diff=lfs merge=lfs -text
+Exercise_01_To_08.zip filter=lfs diff=lfs merge=lfs -text
+Exercise_09_and_10.zip filter=lfs diff=lfs merge=lfs -text
